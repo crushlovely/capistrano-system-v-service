@@ -3,7 +3,7 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = 'capistrano-system-v'
+  spec.name          = 'capistrano-system-v-service'
   spec.version       = '0.1.0'
   spec.authors       = ['PJ Kelly', 'Pablo Castillo']
   spec.email         = ['pj@crushlovely.com', 'pablo@crushlovely.com']
