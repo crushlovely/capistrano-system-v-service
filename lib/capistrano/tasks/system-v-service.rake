@@ -29,7 +29,6 @@ system_v_configuration.each do |config|
     Rake::Task.define_task(service.task_name) do |t|
       on roles service.roles do
         if %w(reload status).include?(command)
-
           info capture(service.to_s)
         else
           execute service.to_s
