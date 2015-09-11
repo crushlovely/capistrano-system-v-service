@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['pj@crushlovely.com', 'pablo@crushlovely.com']
   spec.description   = %q{Easily define Capistrano 3.x tasks for your System V services.}
   spec.summary       = spec.description
-  spec.homepage      = 'https://github.com/crushlovely/capistrano-system-v'
+  spec.homepage      = 'https://github.com/crushlovely/capistrano-system-v-service'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
